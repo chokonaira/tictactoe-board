@@ -1,0 +1,16 @@
+{
+  "name": "typescript-ttt-Board",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Henry Okonkwo",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.1.3"
+  }
+}
