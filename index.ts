@@ -1,7 +1,6 @@
-"use strict";
 class Board {
   grid: string[];
-  constructor(grid: string[] = new Array(9).fill('')) {
+  constructor(grid: string[] = new Array(9).fill("")) {
     this.grid = grid;
   }
 
@@ -21,17 +20,17 @@ class Board {
 
   currentMark(): string {
     if (this.availablePositionCount() % 2 !== 0) {
-      return 'X';
+      return "X";
     }
-    return 'O';
+    return "O";
   }
 
   defaultPositionState(position: number): string {
-    return (this.grid[position - 1] = '');
+    return (this.grid[position - 1] = "");
   }
 
   isPositionTaken(position: number): boolean {
-    return this.grid[position - 1] !== '';
+    return this.grid[position - 1] !== "";
   }
 
   isMoveValid(input: number): boolean {
@@ -39,10 +38,10 @@ class Board {
   }
 
   markedBoardPositionValue(index: number): string {
-    return this.grid[index-1]
+    return this.grid[index - 1];
   }
 
-availablePositions(): number[] {
+  availablePositions(): number[] {
     const result: number[] = [];
     this.grid.forEach((_position, index) => {
       if (!this.isPositionTaken(index + 1)) {
@@ -50,12 +49,12 @@ availablePositions(): number[] {
       }
     });
     return result;
-  }  
+  }
 
   availablePositionCount(): number {
     let counter = 0;
     for (let index = 0; index < this.grid.length; index++) {
-      this.grid[index] === '' && counter++;
+      this.grid[index] === "" && counter++;
     }
     return counter;
   }
@@ -75,7 +74,7 @@ availablePositions(): number[] {
     const lines = rows.concat(columns, diagonals);
 
     const result = lines.filter((line) =>
-      line.every((position) => position !== '' && position === line[0])
+      line.every((position) => position !== "" && position === line[0])
     );
 
     return result.length !== 0;
@@ -122,9 +121,9 @@ availablePositions(): number[] {
     const lines = rows.concat(columns, diagonals);
 
     const result = lines.filter((line) =>
-      line.every((position) => position !== '' && position === line[0])
+      line.every((position) => position !== "" && position === line[0])
     );
-    if (result.length === 0) return '';
+    if (result.length === 0) return "";
     return result[0][0];
   }
 }
