@@ -1,8 +1,5 @@
 ## Tic Tac Toe Game Board
 
-![Node.js CI](https://github.com/chokonaira/tictactoe-board/workflows/Node.js%20CI/badge.svg)
-
-
 A Tic Tac Toe Board module in typescript with inbuilt methods 
 
 ![Node.js CI](https://github.com/chokonaira/tictactoe-board/workflows/Node.js%20CI/badge.svg)
