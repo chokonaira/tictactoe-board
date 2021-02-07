@@ -1,20 +1,20 @@
-## ttt-Board-typescript
+## Tic Tac Toe Game Board
 
 A Tic Tac Toe Board module in typescript with inbuilt methods 
 
 ### Installation
 
-`npm install typescript-ttt-board --save`
+`npm install tictactoe-board --save`
 
 #### Usage
 
-`import Board from typescript-ttt-board`
+`import Board from tictactoe-board`
 
 or 
 
-`const Board = require('typescript-ttt-board')`
+`const Board = require('tictactoe-board')`
 
-#### Intialize an instance object of the Board 
+#### Initialize an instance of the Board object
 
 ```
 const board = new Board(optional parameter);
