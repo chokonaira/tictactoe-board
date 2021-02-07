@@ -11,5 +11,5 @@
     "strict": true,
     "lib": ["es2017", "es7", "es6", "dom"],
   },
-  "exclude": ["node_modules", "out", ".next"]
+  "exclude": ["node_modules", "dist", "**/*.d.ts", "out", ".next"]
 }
