@@ -4,7 +4,7 @@ A Tic Tac Toe Board module in typescript with inbuilt methods
 
 ### Installation
 
-`npm install @types/typescript-ttt-board --save`
+`npm install typescript-ttt-board --save`
 
 #### Usage
 
