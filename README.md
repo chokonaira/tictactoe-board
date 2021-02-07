@@ -4,15 +4,15 @@ A Tic Tac Toe Board module in typescript with inbuilt methods
 
 ### Installation
 
-`npm install @types/ttt-Board-typescript --save`
+`npm install @types/typescript-ttt-board --save`
 
 #### Usage
 
-`import Board from ttt-Board-typescript`
+`import Board from typescript-ttt-board`
 
 or 
 
-`const Board = require('ttt-Board-typescript')`
+`const Board = require('typescript-ttt-board')`
 
 #### Intialize an instance object of the Board 
 
@@ -24,7 +24,7 @@ You can pass in an `optional` custom Array of Strings as parameter
 ```
 Example:
  
-board = new Board(['X', 'X', '', '', 'O', 'O', '', '', ''])
+const board = new Board(['X', 'X', '', '', 'O', 'O', '', '', ''])
 ```
 ### Methods
 
