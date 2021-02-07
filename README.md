@@ -1,8 +1,12 @@
 ## Tic Tac Toe Game Board
 
-A Tic Tac Toe Board module in typescript with inbuilt methods 
+A Tic Tac Toe Board NPM module in typescript with inbuilt methods 
 
 ![Node.js CI](https://github.com/chokonaira/tictactoe-board/workflows/Node.js%20CI/badge.svg)
+
+### NPM Package
+
+[TTT Board](https://www.npmjs.com/package/tictactoe-board)
 
 ### Installation
 
